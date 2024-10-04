@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url('https://imgs.search.brave.com/hPFu3Npjv0QWuwN-vH1ihxi0xx1aMlOhRcO-7t_GFuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA3/MzQ1NTQ2OC9wdC9m/b3RvL3ZpZXctaW5z/aWRlLWEtYmFyLW5v/LXBlb3BsZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Y3dz/VnRGZzhmMkhXVy05/ZFc1V05Ma1BJTTRN/bHo1bmVtMksxTldr/dngzWT0');  /* URL da imagem */
+    background-size: cover;  /* Faz a imagem cobrir todo o espaço do container */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Evita que a imagem se repita */
+}
+
+header {
+    padding: 20px;
+    color: darkred;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.categorias {
+    display: flex;    
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.categoria a {
+    display: block;
+    padding: 10px 20px;
+    background-color:darkred;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.categoria a:hover {
+    background-color:rgba(255, 0, 0, 0.856);
+}
+
